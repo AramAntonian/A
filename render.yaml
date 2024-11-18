@@ -5,10 +5,7 @@ services:
     buildCommand: "npm install"
     startCommand: "npm start"
     plan: free
-    branches:
-      - main
     envVars:
       - key: NODE_ENV
         value: production
-    github:
-      repo: aramantonian/A
+   
